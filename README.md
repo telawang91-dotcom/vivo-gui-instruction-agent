@@ -64,6 +64,32 @@ flowchart LR
 
 ## 数据收集与处理结果展示
 
+以下截图和演示录制自仓库内的交互式展示页面，展示 GUI 数据采集、解析与指令增强后的浏览结果。
+
+### 操作演示
+
+搜索应用 → 查看功能意图 → 搜索操作节点 → 展开自然语言指令。
+
+![知识库浏览操作演示](docs/assets/knowledge-base-walkthrough.gif)
+
+[观看或下载 MP4 演示](docs/assets/knowledge-base-walkthrough.mp4)
+
+### 界面截图
+
+**知识库总览**：应用覆盖、操作节点、指令数量与处理流程。
+
+![知识库总览](docs/assets/knowledge-base-overview.png)
+
+**应用意图分布**：按用户目标组织功能模块，查看节点数量和增强情况。
+
+![应用意图分布与功能模块](docs/assets/knowledge-base-intents.png)
+
+**操作节点与泛化指令**：查看具体操作路径及其多种自然语言表述。
+
+![操作节点与自然语言泛化指令](docs/assets/knowledge-base-queries.png)
+
+### 打开展示页面
+
 - [指令泛化知识库展示](docs/knowledge-base-demo.html)：GUI 数据采集后，经节点解析、意图分类与指令增强形成的交互式知识库快照。
 - 下载该 HTML 文件后，用浏览器打开即可查看；页面内置展示数据，无需启动服务或配置模型。
 - 支持应用总览、功能模块、操作节点与自然语言指令逐层浏览，以及搜索和排序。展示文件已移除品牌字样及原文件中的内部链接。
